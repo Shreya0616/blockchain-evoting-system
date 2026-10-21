@@ -15,12 +15,12 @@ export default function AdminLogin() {
     setMessage("");
 
     try {
-      const credential = await signInWithEmailAndPassword(
+      await signInWithEmailAndPassword(
   auth,
   email.trim(),
   password
 );
-
+      
 
 setMessage("Login successful! Redirecting...");
 window.location.href = "/ElectionSetup";
