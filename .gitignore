@@ -1,0 +1,14 @@
+/node_modules/
+client/node_modules/
+client/build/
+.env
+.env.*
+client/.env
+client/.env.*
+
+client/src/component/Registration/voters.csv
+client/src/component/Admin/AddCandidate/candidates.csv
+
+Election_broken_backup.json
+
+client/android/.idea/

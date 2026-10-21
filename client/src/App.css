@@ -1,0 +1,29 @@
+
+/* Main app styling */
+.App {
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #172554;
+  background: #f5f8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
